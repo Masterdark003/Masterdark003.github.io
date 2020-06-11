@@ -1,13 +1,24 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
         <title>libros xd</title>
+        <script type="text/javascript" src="./api.js"></script>
 
     </head>
     <body>
-        <script type="text/javascript" src="./api.js"></script>
-        
-        <button onclick="userAction()">Click me</button>
+
+        <input type="text" id="buscar" name="buscar"/>
+        <button onclick="buscar()">Buscar por codigo</button>
+
+        <p>
+
+        </p>
+        <button onclick="userAction()">Mostrar Todo</button>
+        <p id="showData"></p>
+        <ul id="items">
+
+        </ul>
+
     </body>
 </html>
